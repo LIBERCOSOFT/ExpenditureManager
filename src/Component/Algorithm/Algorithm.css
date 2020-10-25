@@ -1,0 +1,60 @@
+.container {
+  background-color: #f2f2f2;
+  margin: 20px;
+  padding: 20px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+}
+
+.equalContainer button {
+  margin: 10px;
+}
+
+i {
+  font-weight: bolder;
+  color: #ff0000;
+}
+
+.greenI {
+  color: #003300;
+}
+
+.centerElements {
+  text-align: center;
+}
+
+.centerElements button {
+  background-color: #008000;
+  font-size: larger;
+  font-weight: 600;
+  color:  #f2f2f2;
+  margin-top: 20px;
+}
+
+.equalContainer button {
+  background-color: #ff0000;
+  color: #f2f2f2;
+}
+
+input{
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
