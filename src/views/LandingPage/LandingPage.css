@@ -10,6 +10,15 @@ html {
   padding-top: 2em;
 }
 
+.navStart {
+  color: #660000;
+  font-weight: 800;
+}
+
+.navStart:hover {
+  color: #fff;
+}
+
 button{
   outline: none;
 }

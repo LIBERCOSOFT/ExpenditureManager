@@ -16,8 +16,8 @@ function LandingPage() {
           </h2>
           <a href="#contact">Contact</a>
           <a href="#team">About Us</a>
-          <a href="#offer">Services</a>
-          <Link to="/manager">START</Link>
+          <a href="#offer">Values</a>
+          <Link to="/manager"><i className="navStart">START</i></Link>
         </div>
         <div className="Description">
           <h1>
@@ -33,7 +33,7 @@ function LandingPage() {
       <div id="offer"></div>
       <br />
       <div className="Offer">
-        <h2>SERVICES</h2>
+        <h2>OUR VALUES</h2>
         <div className="OfferBoxContainer">
           <div className="OfferBox">
             <h2>ORGANIZATION'S GROWTH</h2>

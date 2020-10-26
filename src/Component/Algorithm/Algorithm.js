@@ -59,6 +59,9 @@ function Algorithm({ income, expenditure }) {
     let reserveClick = () => {
       let newExpenditures = [...expenditures];
       let secExpenditures = [];
+      if(secExpenditures.length === 0){
+        alert("No Secondary Expenditure to Deduce From, Go Home To Edit Your Input.")
+      }
       // eslint-disable-next-line
       newExpenditures.map((val) => {
         if (val[2] === "SECONDARY") {

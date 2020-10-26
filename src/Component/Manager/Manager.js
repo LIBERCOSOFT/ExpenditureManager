@@ -64,6 +64,7 @@ class Manager extends Component {
     } else {
       alert("Form Not Fully Filled!");
     }
+    
   };
 
   toggleResult = () => {
@@ -80,7 +81,7 @@ class Manager extends Component {
       incomeAmount,
       expenditureName,
       expenditureAmount,
-      expenditureCat,
+      expenditureCategory,
     } = this.state;
 
     if (!this.state.toggleResult) {
@@ -92,7 +93,7 @@ class Manager extends Component {
               {income.map((val, i) => (
                 <>
                   <h3 key={i}>
-                    {val[0].toUpperCase()} > ${val[1]}
+                    {val[0].toUpperCase()} {">"} ${val[1]}
                   </h3>
                   <hr />
                 </>
@@ -106,7 +107,7 @@ class Manager extends Component {
               {expenditure.map((val, i) => (
                 <>
                   <h3 key={i}>
-                    {val[0].toUpperCase()} > ${val[1]} ({val[2].toLowerCase()})
+                    {val[0].toUpperCase()} {">"} ${val[1]} ({val[2].toLowerCase()})
                   </h3>
                   <hr />
                 </>
@@ -166,7 +167,7 @@ class Manager extends Component {
               <label>CATEGORY</label>
               <select
                 name="expenditureCategory"
-                value={expenditureCat}
+                value={expenditureCategory}
                 onChange={this.inputHandler}
               >
                 <option hidden>CATEGORY</option>
